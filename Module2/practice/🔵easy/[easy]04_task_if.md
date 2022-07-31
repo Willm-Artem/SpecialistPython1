@@ -21,7 +21,16 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+circle_x = int(input('circle x - '))
+circle_y = int(input('circle y - '))
+x = int(input("x - "))
+y = int(input("y - "))
+circle_r = int(input('circle r - '))
+h = ((x-circle_x)**2 + (y-circle_y)**2)
+if h<=circle_r**2:
+    print('belongs to the circle')
+else:
+    print('does not be
 ```
 
 ---
